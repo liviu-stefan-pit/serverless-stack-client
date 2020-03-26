@@ -1,7 +1,9 @@
 export default {
+    MAX_ATTACHMENT_SIZE: 5000000,
+    STRIPE_KEY: "pk_test_O6iLkGGSnms8vCmlDOgY9K0d008L4raQOl",
     s3: {
       REGION: "us-east-2",
-      BUCKET: "erp-system-uploads"
+      BUCKET: "tracker-uploads"
     },
     apiGateway: {
       REGION: "us-east-2",
@@ -9,8 +11,8 @@ export default {
     },
     cognito: {
       REGION: "us-east-2",
-      USER_POOL_ID: "us-east-2_XoSwXn9jG",
-      APP_CLIENT_ID: "hmsd9924q9qd0sdnlo029amsu",
-      IDENTITY_POOL_ID: "us-east-2:de79a15e-2e62-4a4e-9c41-76f66cf10155"
+      USER_POOL_ID: "us-east-2_IuInDmYHU",
+      APP_CLIENT_ID: "2qqmfu9bhkrbj1ul6p7u0j02g1",
+      IDENTITY_POOL_ID: "us-east-2:4c82fa15-39be-4b46-9d11-afa60ba6e0e4"
     }
   };
